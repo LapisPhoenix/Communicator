@@ -1,0 +1,11 @@
+name: Communicator
+version: '${project.version}'
+main: me.lapispheonix.communicator.Communicator
+api-version: '1.20'
+commands:
+  sendpos:
+    description: Send a target player your position
+    usage: /sendpos <TARGET PLAYER>
+    aliases:
+      - sp
+      - sendposition
